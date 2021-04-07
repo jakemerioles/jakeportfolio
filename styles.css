@@ -74,6 +74,7 @@ header > a:hover {
 
 .card {
   display:flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -82,7 +83,6 @@ header > a:hover {
   border-radius: 20px;
   margin: 10px;
   padding: 25px;
-  height: 200px;
 }
 
 /* Use bolder fonts for hero text! */
@@ -103,5 +103,8 @@ header > a:hover {
 @media only screen and (min-width: 600px) {
   header, .container{
     flex-direction: row;
+  }
+  .hero {
+    padding: 100px;
   }
 }
