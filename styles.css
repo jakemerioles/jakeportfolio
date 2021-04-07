@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 *{
     outline: 0px;
@@ -64,22 +65,43 @@ header > a:hover {
 .container {
   display: flex;
   flex-direction: column;
-  font-family: 'Montserrat';
-  
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fjalla One';
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card {
   display:flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: rgb(235, 235, 235);
+  align-items: center;
+  text-align: center;
+  background-color: rgb(243, 243, 243);
   border-radius: 20px;
   margin: 10px;
+  padding: 25px;
+  height: 200px;
+}
+
+/* Use bolder fonts for hero text! */
+.card > p {
+  font-family: 'Montserrat';
   padding: 20px;
-  height: 100px;
+}
+
+.card > i {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.card > h2 {
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 600px) {
-  header{
+  header, .container{
     flex-direction: row;
   }
 }
