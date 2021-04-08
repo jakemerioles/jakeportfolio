@@ -36,7 +36,7 @@ header > a:hover {
   /* background-image: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255)); */
 }
 
-/* Hero Div */
+/* Hero */
 
 .hero {
   display: flex;
@@ -45,14 +45,43 @@ header > a:hover {
   justify-content: center;
   align-items: center;
   font-family: 'Montserrat';
-  padding: 20px;
+  padding: 60px;
+  padding-top: 60px;
   /* background-repeat: no-repeat; */
   background-attachment: fixed;
+  color:black;
 }
 
-.hero > img {
-  width: 150px;
-  border-radius:25%;
+.tint > img {
+  max-width: 200px;margin-left: auto;
+  margin-right: auto;
+    border-radius:25%;
+}
+
+.tint > h1 {
+  padding: 20px;
+  padding-bottom: 10px;
+  font-size: 45px;
+  
+}
+
+.tint{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  padding: 20px;
+  background-color:rgba(255, 255, 255, 0.438);
+}
+
+/* welcome */
+
+.welcome {
+  font-family: 'Montserrat';
+  text-align: center;
+  height: 60px;
+  padding: 20px;
 }
 
 /* Cards */
@@ -68,8 +97,7 @@ header > a:hover {
   justify-content: center;
   align-items: center;
   font-family: 'Fjalla One';
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 .card {
