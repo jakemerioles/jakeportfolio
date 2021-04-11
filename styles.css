@@ -29,12 +29,18 @@ header > a {
   padding-bottom: 15px;
 }
 
+header > a:link{
+  transition: color 0.5s, font-size 0.5s;
+}
+
 header > a:hover {
   color: rgb(70, 190, 154);
   font-size: 22px;
   transition: color 0.5s, font-size 0.5s;
   /* background-image: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255)); */
 }
+
+
 
 /* Hero */
 
@@ -72,7 +78,8 @@ header > a:hover {
   align-items: center;
   text-align:center;
   padding: 20px;
-  background-color:rgba(255, 255, 255, 0.438);
+  background-color:rgba(255, 255, 255, 0.575);
+  border-radius: 25px;
 }
 
 /* welcome */
@@ -80,7 +87,6 @@ header > a:hover {
 .welcome {
   font-family: 'Montserrat';
   text-align: center;
-  height: 60px;
   padding: 20px;
 }
 
@@ -102,7 +108,7 @@ header > a:hover {
 
 .card {
   display:flex;
-  flex: 1;
+  color:black;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -110,7 +116,9 @@ header > a:hover {
   background-color: rgb(243, 243, 243);
   border-radius: 20px;
   margin: 10px;
+  height: 200px;
   padding: 25px;
+  width: 300px;
 }
 
 /* Use bolder fonts for hero text! */
@@ -129,10 +137,27 @@ header > a:hover {
 }
 
 @media only screen and (min-width: 600px) {
-  header, .container{
+  header{
     flex-direction: row;
   }
   .hero {
     padding: 100px;
+  }
+  .card{
+    min-width:500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container{
+    flex-direction:row;
+  }
+
+  .card {
+    height:none;
+    width:none;
+    min-width: 0px;
+    max-width: 200px;
+    max-height: 200px;
   }
 }
