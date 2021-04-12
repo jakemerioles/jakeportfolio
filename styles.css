@@ -47,7 +47,7 @@ header > a:hover {
 .hero {
   display: flex;
   flex-direction: column;
-  background-image: url("Fallingwater.png");
+  background-image: url("images/Fallingwater.png");
   justify-content: center;
   align-items: center;
   font-family: 'Montserrat';
@@ -88,6 +88,8 @@ header > a:hover {
   font-family: 'Montserrat';
   text-align: center;
   padding: 20px;
+	font-size: 20px;
+	padding-bottom: 0px;
 }
 
 /* Cards */
@@ -123,7 +125,7 @@ header > a:hover {
 
 #card1:hover{
   background-position: 800px 1300px;
-  background-image: linear-gradient(0deg, rgba(238, 173, 112, 0.329), rgba(236, 157, 84, 0.308)), url(Fallingwater.png);
+  background-image: linear-gradient(0deg, rgba(238, 173, 112, 0.329), rgba(236, 157, 84, 0.308)), url(images/Fallingwater.png);
   color: white;
   transition: height 1s, color 1s;
   height: 240px;
@@ -131,7 +133,7 @@ header > a:hover {
 
 #card2:hover{
   background-position: center;
-  background-image: url("Miles Morales.png");
+  background-image: url("images/Miles Morales.png");
   color:white;
   transition: height 1s, color 1s;
   height: 240px;
@@ -139,7 +141,7 @@ header > a:hover {
 
 #card3:hover{
   background-position: right;
-  background-image: url("canyon.png");
+  background-image: url("images/canyon.png");
   color: white;
   transition: height 1s, color 1s;
   height: 240px;
@@ -147,7 +149,7 @@ header > a:hover {
 
 #card4:hover{
   background-position: top center;
-  background-image: url("Mysterious World.png");
+  background-image: url("images/Mysterious World.png");
   color:white;
   transition: height 1s, color 1s;
   height: 240px;
@@ -155,7 +157,7 @@ header > a:hover {
 
 #card5:hover{
   background-position: top center;
-  background-image: url("Festival.png");
+  background-image: url("images/Festival.png");
   color:white;
   transition: height 1s, color 1s;
   height: 240px;
