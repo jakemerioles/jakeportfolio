@@ -111,6 +111,21 @@ a img:hover {
 	transform: scale(1.05);
 }
 
+/* Coding Content */
+.container{
+	justify-content:center;
+	text-align: center;
+	padding: 20px;
+}
+h2 {
+	font-family: 'Montserrat';
+	text-align: center;
+}
+.gallery{
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
 @media only screen and (min-width: 600px) {
   header{
     flex-direction: row;
@@ -132,4 +147,13 @@ a img:hover {
 	filter:grayscale(100%);
 	transform: scale(1.1);
 }
+	.button:hover{
+		transition: 1s;
+		transform: scale(1.1);
+	}
+ /* Coding Content */
+	.container {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
 }
