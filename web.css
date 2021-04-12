@@ -125,7 +125,10 @@ h2 {
 	font-family: 'Montserrat';
 	text-align: center;
 }
-
+.gallery{
+	padding-right: 100px;
+	padding-left: 100px;
+}
 /* Button */
 .allie{
 	text-decoration:none;
@@ -135,12 +138,9 @@ h2 {
 	padding: 20px;
 	margin:20px;
 	border-radius: 25px;
-	width:200px;
 	color:black;
 	font-family:'Montserrat';
 	transition: 1s;
-	margin-right:25%;
-	margin-left:25%;
 }
 
 @media only screen and (min-width: 600px) {
