@@ -125,8 +125,13 @@ a img:hover {
 	padding: 20px;
 }
 h2 {
-	font-family: 'Montserrat';
+	font-family: 'Fjalla One';
 	text-align: center;
+	padding-bottom: 10px;
+}
+
+p {
+	font-family: 'Montserrat';
 }
 
 @media only screen and (min-width: 600px) {
