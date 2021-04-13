@@ -97,6 +97,7 @@ footer {
 	justify-content: center;
 	flex-wrap: wrap;
 	padding-top:20px;
+	align-items: center;
 }
 
 a img {

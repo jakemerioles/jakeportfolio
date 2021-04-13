@@ -95,12 +95,15 @@ footer {
 .gallery {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
-	background-color: rgb(235, 235, 235);
+	padding-right: 140px;
+	padding-left: 140px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-right: -200px;
-	margin-left: -200px;
+	margin-right: -120px;
+	margin-left: -120px;
+	background-color: rgb(235, 235, 235);
 }
 
 a img {
@@ -120,15 +123,30 @@ a img:hover {
 	justify-content:center;
 	text-align: center;
 	padding: 20px;
+	font-family: 'Montserrat';
 }
 h2 {
 	font-family: 'Montserrat';
 	text-align: center;
+	padding-bottom:15px;
 }
-.gallery{
-	padding-right: 100px;
-	padding-left: 100px;
+
+/* Video */
+.iframe-container{
+	position: relative;
+	width: 100%;
+	padding-bottom:56.25%;
+	height:0;
+	margin-top:20px;
 }
+.iframe-container iframe{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} 
+
 /* Button */
 .allie{
 	text-decoration:none;
@@ -141,6 +159,12 @@ h2 {
 	color:black;
 	font-family:'Montserrat';
 	transition: 1s;
+}
+
+.button:hover{
+	transition: 1s;
+	transform: scale(1.1);
+	background-color: rgb(158, 235, 238);
 }
 
 @media only screen and (min-width: 600px) {
@@ -160,11 +184,6 @@ h2 {
 	filter:grayscale(100%);
 	transform: scale(1.1);
   }
-
-	.button:hover{
-		transition: 1s;
-		transform: scale(1.1);
-	}
 
  /* Coding Content */
 	.container {

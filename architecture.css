@@ -95,8 +95,15 @@ footer {
 .gallery {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
-	padding-top:20px;
+	padding-right: 140px;
+	padding-left: 140px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: -120px;
+	margin-left: -120px;
+	background-color: rgb(235, 235, 235);
 }
 
 a img {
@@ -121,10 +128,6 @@ h2 {
 	font-family: 'Montserrat';
 	text-align: center;
 }
-.gallery{
-	padding-right: 100px;
-	padding-left: 100px;
-}
 
 @media only screen and (min-width: 600px) {
   header{
@@ -133,11 +136,6 @@ h2 {
   .hero {
     padding: 100px;
   }
-
-  .gallery {
-		padding: 100px;
-		padding-top: 20px;
-	}
 
 	a img {
 		padding: 20px;
